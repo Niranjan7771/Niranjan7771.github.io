@@ -54,6 +54,18 @@ h2 {
   text-align: center;
   font-size: 1.1rem;
 }
+#about-me .about-logo {
+  max-width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
+  border-radius: 50%;
+}
+@media (max-width: 480px) {
+  #about-me .about-logo {
+    max-width: 100px;
+  }
+}
 
 /* Projects section */
 #projects {
